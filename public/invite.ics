@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Europe/Athens
+X-LIC-LOCATION:Europe/Athens
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0300
+TZNAME:GMT+3
+DTSTART:19700329T030000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0200
+TZNAME:GMT+2
+DTSTART:19701025T040000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Athens:20260115T183000
+DTEND;TZID=Europe/Athens:20260115T193000
+DTSTAMP:20260114T103806Z
+ORGANIZER;CN=Calendar3 Greeka:mailto:greekacomcalendar3@gmail.com
+UID:bddb0gp1bb1rg6kce514h1sals@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=Calendar3 Greeka;X-NUM-GUESTS=0:mailto:greekacomcalendar3@gmail.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=m.hamzakhurram.aiu@gmail.com;X-NUM-GUESTS=0:mailto:m.hamzakhurram.aiu@g
+ mail.com
+X-GOOGLE-CONFERENCE:https://meet.google.com/ydb-rwmh-nws
+X-MICROSOFT-CDO-OWNERAPPTID:-1685113850
+CREATED:20260114T103758Z
+DESCRIPTION:<b>Booked by</b>\nMUHAMMAD HAMZA KHURRAM\nm.hamzakhurram.aiu@gm
+ ail.com\n+923348811824\n<br><b>Position (BE Dev\, FE DEV\, QA\, Data Entry\
+ , Full Stack\, Copywriter\, Travel Operator\, AI\, WordPress etc)</b>\nFron
+ t End Developer\n\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google
+ .com/ydb-rwmh-nws\n\nLearn more about Meet at: https://support.google.com/a
+ /users/answer/9282720\n\nPlease do not edit this section.\n-::~:~::~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20260114T103803Z
+LOCATION:https://meet.google.com/ydb-rwmh-nws
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:GreekaApt (MUHAMMAD HAMZA KHURRAM)
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
